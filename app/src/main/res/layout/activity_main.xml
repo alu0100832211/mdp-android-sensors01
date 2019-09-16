@@ -1,0 +1,73 @@
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            tools:context=".MainActivity">
+            <Button
+                android:id="@+id/bLight"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_button_off"
+                android:text="@string/light_sensor_off"
+                android:autoSizeTextType="uniform"
+                android:padding="5dp"
+                android:layout_margin="25dp"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/bAccelerometer"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_button_off"
+                android:text="@string/accelerometer_sensor_off"
+                android:autoSizeTextType="uniform"
+                android:padding="5dp"
+                android:layout_margin="25dp"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/static1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light sensor measurements:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lightMeasurement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light sensor is OFF" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>

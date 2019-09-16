@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShowLightSensor</string>
+    <string name="light_sensor_off">Light\nOFF</string>
+    <string name="light_sensor_on">Light\nON</string>
+    <string name="accelerometer_sensor_on">Accelerometer\nON</string>
+    <string name="accelerometer_sensor_off">Accelerometer\nOFF</string>
+</resources>
